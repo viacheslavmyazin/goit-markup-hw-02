@@ -79,3 +79,104 @@ color: var(--second-text-color);
 
 /* ----------------------hero----------------- */
 
+.headlines { 
+font-weight: 900;
+font-size: 44px;
+line-height: 1.36;
+text-align: center;
+letter-spacing: 0.06em;
+text-transform: uppercase;
+color:var(--primary-title-color);
+}
+
+.headlines {
+    background: #2F303A;
+}
+
+.button {
+font-weight: bold;
+font-size: 16px;
+line-height: 1.87;
+display: flex;
+align-items: center;
+text-align: center;
+letter-spacing: 0.06em;
+color: var(--primary-title-color);
+}
+
+.button {
+    background-color: #2F303A;;
+}
+
+.button:hover, .button:focus {
+    background-color: var(--header-color);
+}
+
+.hero-item {
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+        color: var(--headlines-text-color)
+}
+
+.hero-pages {
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    color: var(--second-text-color);
+}
+
+.activity-item {
+font-weight: bold;
+font-size: 36px;
+line-height: 1.17;
+letter-spacing: 0.03em;
+color: var(--headlines-text-color);
+}
+
+.headline-teams {
+font-weight: bold;
+font-size: 36px;
+line-height: 1.17;
+letter-spacing: 0.03em;
+color: var(--headlines-text-color);
+}
+
+.headline-team {
+font-weight: 500;
+font-size: 16px;
+line-height: 1.19;
+letter-spacing: 0.03em;
+color: var(--headlines-text-color);
+}
+
+.team-pages {
+font-weight: normal;
+font-size: 16px;
+line-height: 1.19;
+letter-spacing: 0.03em;
+color: var(--second-text-color);
+}
+
+
+/* -------------footer----------------- */
+
+
+.footer-link {
+font-weight: normal;
+font-size: 14px;
+line-height: 1.71;
+letter-spacing: 0.03em;
+color: rgba(255, 255, 255, 0.6);
+}
+
+.footer-list {
+    background-color: #2F303A;
+}
+
+.footer-link:hover, .footer-link:focus {
+    color: var(--primary-title-color);
+}

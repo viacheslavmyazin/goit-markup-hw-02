@@ -92,7 +92,8 @@ color:var(--primary-title-color);
     background: #2F303A;
 }
 
-.button {
+.button-service {
+font-family: inherit;
 font-weight: 700;
 font-size: 16px;
 line-height: 1.87;
@@ -100,11 +101,8 @@ letter-spacing: 0.06em;
 color: var(--primary-title-color);
 }
 
-.button {
-    font-family: inherit;
-}
 
-.button:hover, .button:focus {
+.button-service:hover, .button-service:focus {
     background-color: var(--header-color);
 }
 
@@ -176,4 +174,35 @@ color: var(--footer-text-color);
 
 .footer-link:hover, .footer-link:focus {
     color: var(--primary-title-color);
+}
+
+/* porfolio main*/
+
+.button-item {
+font-family: inherit;
+font-weight: 500;
+font-size: 16px;
+line-height: 1.62;
+letter-spacing: 0.03em;
+color: var(--headlines-text-color);
+}
+
+.button-chapter:focus, .button-chapter:hover {
+    color: var(--primary-title-color);
+}
+
+.photo-headline {
+font-weight: 700;
+font-size: 18px;
+line-height: 2.00;
+letter-spacing: 0.06em;
+color: var(--headlines-text-color);
+}
+
+.photo-pages {
+font-weight: 400;
+font-size: 16px;
+line-height: 1.87;
+letter-spacing: 0.03em;
+color: var(--second-text-color);
 }

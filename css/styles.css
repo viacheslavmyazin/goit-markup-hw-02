@@ -1,0 +1,52 @@
+:root {
+    --header-color: #2196F3;
+    --primary-title-color: #ffffff;
+    --second-text-color: #757575;
+    --headlines-text-color: #212121; 
+    --footer-text-color: rgba(255, 255, 255, 0.6);
+}
+
+body {
+        font-family: 'Roboto', sans-serif;
+}
+
+.list {
+    list-style: none;
+}
+
+.link {
+    text-decoration: none;
+}
+
+/* ----header--- */
+
+
+.menu-link {
+font-weight: 500;
+font-size: 14px;
+line-height: 1.14;
+letter-spacing: 0.02em;
+color: var(--headlines-text-color)
+}
+
+.header-mail {
+font-weight: 500;
+font-size: 14px;
+line-height: 1.14;
+letter-spacing: 0.02em;
+color: var(--second-text-color);
+}
+
+.nav-adress {
+font-weight: 500;
+font-size: 14px;
+line-height: 16px;
+color: var(--second-text-color);
+
+}
+
+.menu-link:hover,
+.menu-link:focus {
+    color: var(--header-color);
+}
+

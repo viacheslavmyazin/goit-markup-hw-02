@@ -7,7 +7,7 @@
 }
 
 body {
-        font-family: 'Roboto', sans-serif;
+    font-family: 'Roboto', sans-serif;
 }
 
 .list {
@@ -23,7 +23,7 @@ body {
 
 .web {
 font-family: Raleway;
-font-weight: bold;
+font-weight: 700;
 font-size: 26px;
 line-height: 1.93;
 letter-spacing: 0.03em;
@@ -32,7 +32,7 @@ color:var(--header-color);
 
 .header-logo {
 font-family: Raleway;
-font-weight: bold;
+font-weight: 700;
 font-size: 26px;
 line-height: 1.93;
 letter-spacing: 0.03em;
@@ -83,7 +83,6 @@ color: var(--second-text-color);
 font-weight: 900;
 font-size: 44px;
 line-height: 1.36;
-text-align: center;
 letter-spacing: 0.06em;
 text-transform: uppercase;
 color:var(--primary-title-color);
@@ -94,18 +93,15 @@ color:var(--primary-title-color);
 }
 
 .button {
-font-weight: bold;
+font-weight: 700;
 font-size: 16px;
 line-height: 1.87;
-display: flex;
-align-items: center;
-text-align: center;
 letter-spacing: 0.06em;
 color: var(--primary-title-color);
 }
 
 .button {
-    background-color: #2F303A;;
+    font-family: inherit;
 }
 
 .button:hover, .button:focus {
@@ -113,7 +109,7 @@ color: var(--primary-title-color);
 }
 
 .hero-item {
-    font-weight: bold;
+    font-weight: 700;
     font-size: 14px;
     line-height: 1.14;
     letter-spacing: 0.03em;
@@ -122,7 +118,7 @@ color: var(--primary-title-color);
 }
 
 .hero-pages {
-    font-weight: normal;
+    font-weight: 400;
     font-size: 14px;
     line-height: 1.71;
     letter-spacing: 0.03em;
@@ -130,7 +126,7 @@ color: var(--primary-title-color);
 }
 
 .activity-item {
-font-weight: bold;
+font-weight: 700;
 font-size: 36px;
 line-height: 1.17;
 letter-spacing: 0.03em;
@@ -138,7 +134,7 @@ color: var(--headlines-text-color);
 }
 
 .headline-teams {
-font-weight: bold;
+font-weight: 700;
 font-size: 36px;
 line-height: 1.17;
 letter-spacing: 0.03em;
@@ -154,7 +150,7 @@ color: var(--headlines-text-color);
 }
 
 .team-pages {
-font-weight: normal;
+font-weight: 400;
 font-size: 16px;
 line-height: 1.19;
 letter-spacing: 0.03em;
@@ -166,15 +162,16 @@ color: var(--second-text-color);
 
 
 .footer-link {
-font-weight: normal;
+font-weight: 400;
 font-size: 14px;
 line-height: 1.71;
 letter-spacing: 0.03em;
-color: rgba(255, 255, 255, 0.6);
+color: var(--footer-text-color);
 }
 
 .footer-list {
     background-color: #2F303A;
+    font-style: normal;
 }
 
 .footer-link:hover, .footer-link:focus {

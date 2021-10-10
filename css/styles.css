@@ -199,9 +199,6 @@ color: var(--headlines-text-color);
 
 }
 
-.button-chapter:active {
-    background-color: var(--header-color);
-}
 
 .photo-headline {
 font-weight: 700;

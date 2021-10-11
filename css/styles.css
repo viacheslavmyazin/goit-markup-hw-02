@@ -10,6 +10,7 @@ body {
     font-family: 'Roboto', sans-serif;
 }
 
+
 .list {
     list-style: none;
 }
@@ -194,8 +195,8 @@ color: var(--primary-title-color);
 
 
 .button-chapter {
-    cursor: pointer;
-    font-family: inherit;
+cursor: pointer;
+font-family: inherit;
 }
 
 .button-chapter {

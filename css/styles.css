@@ -93,13 +93,17 @@ color:var(--primary-title-color);
 }
 
 .button-service {
-cursor: pointer;
-font-family: inherit;
 font-weight: 700;
 font-size: 16px;
 line-height: 1.87;
 letter-spacing: 0.06em;
 color: var(--primary-title-color);
+}
+
+
+.button-service {
+font-family: inherit;
+cursor: pointer;   
 }
 
 
@@ -181,9 +185,6 @@ color: var(--primary-title-color);
     font-style: normal;
 }
 
-.footer-item-adress {
-    color: var(--primary-title-color);
-}
 
 .footer-link:hover, .footer-link:focus {
     color: var(--primary-title-color);
@@ -194,7 +195,7 @@ color: var(--primary-title-color);
 
 .button-chapter {
     cursor: pointer;
-    font-style: inherit;
+    font-family: inherit;
 }
 
 .button-chapter {
@@ -207,7 +208,7 @@ color: var(--headlines-text-color);
 
 
 .button-chapter:focus, .button-chapter:hover {
-    color: var(--primary-title-color);
+color: var(--primary-title-color);
 
 }
 

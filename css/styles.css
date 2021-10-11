@@ -168,9 +168,21 @@ letter-spacing: 0.03em;
 color: var(--footer-text-color);
 }
 
+.footer-item-link {
+font-weight: 400;
+font-size: 14px;
+line-height: 1.71;
+letter-spacing: 0.03em;
+color: var(--primary-title-color);
+}
+
 .footer-list {
     background-color: #2F303A;
     font-style: normal;
+}
+
+.footer-item-adress {
+    color: var(--primary-title-color);
 }
 
 .footer-link:hover, .footer-link:focus {
